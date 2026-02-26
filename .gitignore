@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Sanity Studio build and runtime
+**/dist/
+**/.sanity/
+
+# Logs and misc
+*.log
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
