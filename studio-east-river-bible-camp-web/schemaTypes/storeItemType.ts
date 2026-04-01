@@ -26,7 +26,15 @@ export const storeItemType = defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
-      name: 'image',
+      name: 'imageFront',
+      type: 'image',
+    }),
+    defineField({
+      name: 'imageBack',
+      type: 'image',
+    }),
+    defineField({
+      name: 'imageOther',
       type: 'image',
     }),
     defineField({
