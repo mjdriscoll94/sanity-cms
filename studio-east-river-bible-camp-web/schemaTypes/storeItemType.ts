@@ -11,6 +11,11 @@ export const storeItemType = defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
+      name: 'year',
+      type: 'string',
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
       name: 'itemName',
       type: 'string',
       validation: (rule) => rule.required(),
